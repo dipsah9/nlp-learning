@@ -1,0 +1,23 @@
+                                                        Lexical Diversity in NLP - Notes
+
+Understanding Lexical Diversity:
+    Lexical diversity is a measure of how varied the vocabulary is in a given text. It is calculated using the Type-Token Ratio (TTR):
+        A higher value means a richer vocabulary.
+        A lower value means more repetition in words.
+
+
+Implementing Lexical Diversity in Python:
+    To analyze lexical diversity in a text, we use NLTK (Natural Language Toolkit), a Python library for working with human language data.
+
+Fixing the Issue of Repeated Downloads
+When using nltk.corpus.gutenberg, the dataset should be downloaded only once, instead of downloading it every time the script runs. 
+To achieve this, we:
+    Try loading the text from the Gutenberg corpus.
+        If the corpus is missing, download it.
+
+Python Code Implementation
+Key Takeaways:
+NLTK datasets should not be re-downloaded every time.
+We handle missing datasets using try-except with LookupError.
+Lexical diversity is useful in NLP for analyzing text richness.
+The Gutenberg corpus provides classic literary texts for analysis.
