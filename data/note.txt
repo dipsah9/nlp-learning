@@ -21,3 +21,13 @@ NLTK datasets should not be re-downloaded every time.
 We handle missing datasets using try-except with LookupError.
 Lexical diversity is useful in NLP for analyzing text richness.
 The Gutenberg corpus provides classic literary texts for analysis.
+
+Visualizing Lexical Diversity Using Matplotlib:
+    Once we have calculated lexical diversity, it is helpful to visualize the results. We use Matplotlib to generate bar charts comparing different texts.
+
+Python Code for Visualization:
+    Word Frequency Analysis
+    Beyond lexical diversity, analyzing the most common words in a text helps understand dominant themes and language usage. To do this:
+    Remove punctuation & stopwords
+    Count the most frequent words
+    Visualize the top words using Matplotlib
