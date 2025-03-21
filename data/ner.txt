@@ -1,0 +1,20 @@
+Named Entity Recognition (NER):
+    NER is the process of identifying and classifying named entities in text into predefined categories such as:
+        - Person names (e.g., Hamlet)
+        - Locations (e.g., Denmark)
+        - Organizations, dates, monetary values, and more
+
+Why NER Matters in NLP and AI:
+        - Helps extract structured information from raw text.
+        - Powers chatbots, voice assistants, question answering systems, and search engines.
+        - Bridges language and real-world entities.
+
+Analogy:
+Think of NER like highlighting important names and places in a textbook:
+    - Names in yellow
+    - Locations in green
+    - Dates in blue
+
+NER lets AI “see” and categorize these important terms, just like a human reader.
+If you'd like to explore a working implementation, check out the script: scripts/ner_analysis.py in the repository.
+NER is one of the key tools for making AI understand "who is doing what, where, and when" — crucial for understanding human language!
